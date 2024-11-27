@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background: black;
+}
+
+
+.text-container {
+    padding: 2vw;
+    color: white;
+    font-size: 7.7vw;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+}
+.text {
+    line-height: 1vw;
+}
+
+.gradient {
+    display: inline-block;
+    height: 5vw;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+}
+.gradient video {
+    position: absolute;
+    left: 0;
+    width: 98vw;
+    object-fit: cover;
+}
+
+.gradient1 {
+    width: 30vw;
+}
+.gradient2 {
+    width: 20vw;
+}
+.gradient3 {
+    width: 25vw;
+}
+.gradient4 {
+    width: calc(58vw);
+}
+.gradient6 {
+    display: none;
+}
+.gradient5 {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .text-container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .text-container {
+        font-size: 14vw;
+        line-height: 15vw;
+    }
+    .gradient {
+        height: 8vw;
+    }
+    .gradient2 {
+        display: none;
+    }
+    .gradient6 {
+        display: inline-block;
+        width: 14vw;
+    }
+    .gradient5 {
+        width: 45vw;
+        display: inline-block;
+    }
+    .gradient2 {
+        width: 20vw;
+    }
+    .gradient3 {
+        width: 10vw;
+    }
+    .gradient4 {
+        width: 26vw;
+    }
+}
+
